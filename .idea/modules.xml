@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hyperskill_kotlin_NumericMatrixProcessor.iml" filepath="$PROJECT_DIR$/.idea/modules/hyperskill_kotlin_NumericMatrixProcessor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Numeric Matrix Processor (Kotlin)/task/hyperskill_kotlin_NumericMatrixProcessor.Numeric_Matrix_Processor__Kotlin_-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Numeric Matrix Processor (Kotlin)/task/hyperskill_kotlin_NumericMatrixProcessor.Numeric_Matrix_Processor__Kotlin_-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Numeric Matrix Processor (Kotlin)/task/hyperskill_kotlin_NumericMatrixProcessor.Numeric_Matrix_Processor__Kotlin_-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Numeric Matrix Processor (Kotlin)/task/hyperskill_kotlin_NumericMatrixProcessor.Numeric_Matrix_Processor__Kotlin_-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Numeric Matrix Processor (Kotlin)/task/hyperskill_kotlin_NumericMatrixProcessor.Numeric_Matrix_Processor__Kotlin_-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Numeric Matrix Processor (Kotlin)/task/hyperskill_kotlin_NumericMatrixProcessor.Numeric_Matrix_Processor__Kotlin_-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/hyperskill_kotlin_NumericMatrixProcessor.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/hyperskill_kotlin_NumericMatrixProcessor.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/hyperskill_kotlin_NumericMatrixProcessor.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/hyperskill_kotlin_NumericMatrixProcessor.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/hyperskill_kotlin_NumericMatrixProcessor.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/hyperskill_kotlin_NumericMatrixProcessor.util.test.iml" />
+    </modules>
+  </component>
+</project>
