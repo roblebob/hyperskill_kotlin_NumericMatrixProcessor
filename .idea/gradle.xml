@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,6 +12,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Numeric Matrix Processor (Kotlin)/task" />
+            <option value="$PROJECT_DIR$/Topics/Class delegation/Correct delegation" />
+            <option value="$PROJECT_DIR$/Topics/Class delegation/Fresh from the lines" />
+            <option value="$PROJECT_DIR$/Topics/Class delegation/Project management system" />
+            <option value="$PROJECT_DIR$/Topics/Class delegation/Speed and fuel" />
+            <option value="$PROJECT_DIR$/Topics/Class delegation/System of bonuses" />
+            <option value="$PROJECT_DIR$/Topics/Class delegation/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
