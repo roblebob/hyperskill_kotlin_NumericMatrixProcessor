@@ -2,43 +2,31 @@ package processor
 
 fun main() {
     val A_dim = readln().split(" ").map { it.toInt() }
-    val A = MutableList(A_dim[0]) { mutableListOf(
-            readln().split(" ").map { it.toInt() }
-    )
-    }
-    printMatrix(A)
+
+
 }
 
 
 
-class Matrix {
-
-    val field = mutableListOf<MutableList<Int>>()
+class Matrix<T : Number>(val row: Int, val col: Int) {
+    val matrix: MutableList<MutableList<T>>
 
     init {
-        val A_dim = readln().split(" ").map { it.toInt() }
-        val A = MutableList(A_dim[0]) { mutableListOf(
-                readln().split(" ").map { it.toInt() }
-        )
-        }
-        printMatrix(A)
+        matrix = MutableList(row) { MutableList(col) { 0 as T } }
     }
 
-
-
-
-
-
-
+    override fun toString(): String = matrix.joinToString("\n") { it.joinToString(" ") }
 }
 
 
 
-fun printMatrix(A: MutableList<MutableList<Int>>) {
-    for (i in A) {
-        for (j in i) {
-            print("$j ")
+
+inline fun <reified T : Number> processNumber(number: T) {
+    when (number) {
+        is Byte, is Short, is Int, is Long, is Float, is Double -> {
+            // Process the number
+            println("Processing number: $number")
         }
-        println()
+        else -> throw IllegalArgumentException("Unsupported type: ${T::class}")
     }
 }
