@@ -1,18 +1,42 @@
 package processor
 
+import kotlin.system.exitProcess
+
+const val ERROR = "ERROR"
+
 fun main() {
     val A_dim = readln().split(" ").map { it.toInt() }
-
-
+    val A = Matrix(A_dim[0], A_dim[1])
+    val B_dim = readln().split(" ").map { it.toInt() }
+    A.add(Matrix(B_dim[0], B_dim[1]))
+    println(A)
 }
 
 
 
-class Matrix<T : Number>(val row: Int, val col: Int) {
-    val matrix: MutableList<MutableList<T>>
+class Matrix(val row: Int, val col: Int) {
+    private val matrix: MutableList<MutableList<Int>> = MutableList(row) { MutableList(col) { 0 } }
 
     init {
-        matrix = MutableList(row) { MutableList(col) { 0 as T } }
+        require(row > 0 && col > 0) { ERROR }
+
+        repeat(row) {
+            i -> matrix[i] = readln().split(" ").map { it.toInt() }.toMutableList()
+                .also { require(it.size == col) { ERROR } }
+        }
+    }
+
+    fun add(other: Matrix) {
+        if(row != other.row || col != other.col) {
+            println(ERROR)
+            exitProcess(0)
+        }
+
+        repeat(row) { i ->
+            repeat(col) { j ->
+                matrix[i][j] += other.matrix[i][j]
+            }
+        }
     }
 
     override fun toString(): String = matrix.joinToString("\n") { it.joinToString(" ") }
@@ -21,12 +45,3 @@ class Matrix<T : Number>(val row: Int, val col: Int) {
 
 
 
-inline fun <reified T : Number> processNumber(number: T) {
-    when (number) {
-        is Byte, is Short, is Int, is Long, is Float, is Double -> {
-            // Process the number
-            println("Processing number: $number")
-        }
-        else -> throw IllegalArgumentException("Unsupported type: ${T::class}")
-    }
-}
