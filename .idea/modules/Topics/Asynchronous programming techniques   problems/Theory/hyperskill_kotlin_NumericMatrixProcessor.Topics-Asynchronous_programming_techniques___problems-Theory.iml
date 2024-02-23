@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-Asynchronous_programming_techniques___problems-Theory" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/Asynchronous programming techniques   problems/Theory" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="hyperskill_kotlin_NumericMatrixProcessor" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/Asynchronous programming techniques   problems/Theory">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Asynchronous programming techniques   problems/Theory/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Asynchronous programming techniques   problems/Theory/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

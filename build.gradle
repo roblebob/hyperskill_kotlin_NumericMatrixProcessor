@@ -40,6 +40,7 @@ subprojects {
     }
 
     dependencies {
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
         testImplementation 'com.github.hyperskill:hs-test:release-SNAPSHOT'
     }
 

@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Coroutines consume less memory than threads
+  - text: Coroutines can work even on a single-threaded platform
+  - text: Coroutines allow using the imperative style for async operations
+  - text: Coroutines make computations faster than callbacks or threads
+files:
+  - name: src/Main.kt
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      fun main(args: Array<String>) {
+        // put your code here
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14507#comment
+status: Solved
+record: -1
+local_check: false

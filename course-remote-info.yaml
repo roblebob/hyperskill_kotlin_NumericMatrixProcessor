@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/24529/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Sun, 18 Feb 2024 17:46:04 UTC"
+update_date: "Fri, 23 Feb 2024 17:06:28 UTC"
 stages:
   - id: 480
     step: 7786
@@ -35,26 +35,20 @@ topics:
       theory_id: 26143
     - title: Cartesian coordinates
       theory_id: 13114
-    - title: Computer algorithms
-      theory_id: 16547
-    - title: "Big O: how to count it"
-      theory_id: 35901
-    - title: Complexity cases and how to use them
-      theory_id: 20084
     - title: Basics of sets
       theory_id: 8220
     - title: Basics of functions
       theory_id: 8857
     - title: Properties of functions
       theory_id: 20683
+    - title: Data structures
+      theory_id: 40371
     - title: Abstract and concrete data structures
       theory_id: 16927
+    - title: What is linear algebra?
+      theory_id: 35882
     - title: Properties of numerical functions
       theory_id: 20704
-    - title: Pseudocode
-      theory_id: 15090
-    - title: Pseudocode basics
-      theory_id: 19510
     - title: Stack
       theory_id: 5252
     - title: "Vectors, matrices, scalars"
@@ -65,8 +59,6 @@ topics:
       theory_id: 17812
     - title: Operations with matrices
       theory_id: 7296
-    - title: Complex constructions in pseudocode
-      theory_id: 20922
     - title: Introduction to Kotlin
       theory_id: 4350
     - title: "Basic literals: numbers, strings and characters"
@@ -167,6 +159,10 @@ topics:
       theory_id: 17116
     - title: Nested and inner classes
       theory_id: 14723
+    - title: Arrays
+      theory_id: 4564
+    - title: String arrays
+      theory_id: 11477
     - title: Getting substrings
       theory_id: 8535
     - title: Processing strings
@@ -179,6 +175,8 @@ topics:
       theory_id: 12069
     - title: Introduction to software architecture
       theory_id: 15368
+    - title: Multi-dimensional array
+      theory_id: 10950
     - title: Introduction to logging
       theory_id: 5538
     - title: Debugging techniques
@@ -219,6 +217,8 @@ topics:
   2:
     - title: Vector operations
       theory_id: 29446
+    - title: Vector space
+      theory_id: 35474
     - title: Vector norm and distance between vectors
       theory_id: 33339
     - title: Vector dot product
@@ -263,6 +263,8 @@ topics:
     - title: The try-catch-finally statement
       theory_id: 11809
   4:
+    - title: Computer algorithms
+      theory_id: 16547
     - title: Linear combinations and linear independence
       theory_id: 29596
     - title: Matrix determinant

@@ -1,0 +1,25 @@
+<h2>To distinguish them</h2>
+<div class="step-text">
+<p></p>
+<p>You have the following code:</p>
+<pre><code class="language-kotlin">1) fun postRequest() {
+       sendRequest { data -&gt;
+           submitRequest(data) { result -&gt;
+               confirmResult(result)
+           }
+       }
+    }</code></pre>
+<pre><code class="language-kotlin">2) suspend fun doLongComputations() {
+        doSomethind()
+        writeResult()
+    }</code></pre>
+<pre><code class="language-kotlin">3) fun postItem(item: Item) {
+       preparePostAsync()
+       .thenCompose { token -&gt;
+           submitPostAsync(token, item)
+       }
+       .thenAccept { post -&gt;
+           processPost(post)
+    }</code></pre>
+<p>Match each code piece to the name of the approach used to work with asynchronous code.</p>
+</div>
