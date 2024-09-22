@@ -7,8 +7,13 @@ const val ERROR = "ERROR"
 fun main() {
     val A_dim = readln().split(" ").map { it.toInt() }
     val A = Matrix(A_dim[0], A_dim[1])
-    val B_dim = readln().split(" ").map { it.toInt() }
-    A.add(Matrix(B_dim[0], B_dim[1]))
+
+//    val B_dim = readln().split(" ").map { it.toInt() }
+//    A.add(Matrix(B_dim[0], B_dim[1]))
+
+    val c = readln().toInt();
+    A.mult(c)
+
     println(A)
 }
 
@@ -38,6 +43,15 @@ class Matrix(val row: Int, val col: Int) {
             }
         }
     }
+
+    fun mult(c: Int) {
+        repeat(row) { i ->
+            repeat(col) { j ->
+                matrix[i][j] *= c
+            }
+        }
+    }
+
 
     override fun toString(): String = matrix.joinToString("\n") { it.joinToString(" ") }
 }
