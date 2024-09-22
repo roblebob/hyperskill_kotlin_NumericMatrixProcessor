@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: javax.imageio.ImageIO
+  - text: java.awt.image.ColorModel
+  - text: java.awt.Graphics2D
+  - text: java.awt.Image
+files:
+  - name: src/Main.kt
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16350#comment
+status: Solved
+record: -1
+local_check: false

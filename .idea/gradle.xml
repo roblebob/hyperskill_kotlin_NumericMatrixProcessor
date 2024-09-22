@@ -5,7 +5,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -30,6 +29,14 @@
             <option value="$PROJECT_DIR$/Topics/Class delegation/Speed and fuel" />
             <option value="$PROJECT_DIR$/Topics/Class delegation/System of bonuses" />
             <option value="$PROJECT_DIR$/Topics/Class delegation/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Drawing a red square" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Drawing four circles" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Drawing three strings" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Drawing two lines" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Raster Images" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Representing images in Kotlin" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Supported formats" />
+            <option value="$PROJECT_DIR$/Topics/Image libraries/Theory" />
             <option value="$PROJECT_DIR$/Topics/Suspending functions/911" />
             <option value="$PROJECT_DIR$/Topics/Suspending functions/Phone a friend" />
             <option value="$PROJECT_DIR$/Topics/Suspending functions/Please don't stop the music" />
